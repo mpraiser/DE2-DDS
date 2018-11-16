@@ -1,0 +1,50 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>WED</sub_system>
+	<file>/quartus/edt/wed/wed_utility.cpp</file>
+	<line>674</line>
+	<callstack>
+	0x113aec21: edt_wed + 0x7ec21 (?wed_wsf_alloc_string@@YAPAV?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@PAVwed_wsf_lexer_yyFlexLexer@@PBDH@Z + 0x17101)
+	0x100080e1: GCL_AFC + 0x80e1 (?get_page_setup_info@AFC_EDITOR_DOC@@QAIPAVCUI_PAGE_SETUP_INFO@@XZ + 0x51)
+	0x113c3b0a: edt_wed + 0x93b0a (?wed_wsf_parser_yyparse@@YAHPAVFlexLexer@@PAX@Z + 0x1352a)
+	0x02835580: ccl_mem + 0x5580 (mem_out_of_memory + 0x4f0)
+	0x02835580: ccl_mem + 0x5580 (mem_out_of_memory + 0x4f0)
+	0x027d25f2: CCL_FIO + 0x25f2 (?is_dot_directory@FIO_PATH@@SI_NABV?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@@Z + 0x1d2)
+	0x0283a128: ccl_mem + 0xa128 (?mem_realloc_wrapper@@YIPAXPAXIPAVMEM_TRACKER_THUNK@@PBD@Z + 0x188)
+	0x692b5670: mfc90 + 0x35670
+	0x02835580: ccl_mem + 0x5580 (mem_out_of_memory + 0x4f0)
+	0x02835580: ccl_mem + 0x5580 (mem_out_of_memory + 0x4f0)
+	0x028380b5: ccl_mem + 0x80b5 (?allocate@MEM_SEGMENT_INTERNAL@@QAIPAXIPAVMEM_TRACKER_THUNK@@PBD@Z + 0x95)
+	</callstack>
+	<error>vector_data != NULL</error>
+	<date>Wed Oct 24 23:12:39 2018</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>vector_data != NULL
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>WED</sub_system>
+	<file>/quartus/edt/wed/wed_utility.cpp</file>
+	<line>674</line>
+	<callstack>
+	0x1315ec21: edt_wed + 0x7ec21 (?wed_wsf_alloc_string@@YAPAV?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@PAVwed_wsf_lexer_yyFlexLexer@@PBDH@Z + 0x17101)
+	0x100080e1: GCL_AFC + 0x80e1 (?get_page_setup_info@AFC_EDITOR_DOC@@QAIPAVCUI_PAGE_SETUP_INFO@@XZ + 0x51)
+	0x13173b0a: edt_wed + 0x93b0a (?wed_wsf_parser_yyparse@@YAHPAVFlexLexer@@PAX@Z + 0x1352a)
+	0x02835580: ccl_mem + 0x5580 (mem_out_of_memory + 0x4f0)
+	0x02835580: ccl_mem + 0x5580 (mem_out_of_memory + 0x4f0)
+	0x027c25f2: CCL_FIO + 0x25f2 (?is_dot_directory@FIO_PATH@@SI_NABV?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@@Z + 0x1d2)
+	0x0283a128: ccl_mem + 0xa128 (?mem_realloc_wrapper@@YIPAXPAXIPAVMEM_TRACKER_THUNK@@PBD@Z + 0x188)
+	0x692b5670: mfc90 + 0x35670
+	0x02835580: ccl_mem + 0x5580 (mem_out_of_memory + 0x4f0)
+	0x02835580: ccl_mem + 0x5580 (mem_out_of_memory + 0x4f0)
+	0x028380b5: ccl_mem + 0x80b5 (?allocate@MEM_SEGMENT_INTERNAL@@QAIPAXIPAVMEM_TRACKER_THUNK@@PBD@Z + 0x95)
+	</callstack>
+	<error>vector_data != NULL</error>
+	<date>Wed Oct 24 23:15:52 2018</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>vector_data != NULL
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+

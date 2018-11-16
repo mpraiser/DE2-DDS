@@ -1,0 +1,13 @@
+module singleRST(input CLK,input RST,output reg sRST);
+	reg flag;
+	always@(posedge CLK)
+	begin
+		if(RST && flag==0)
+		begin
+			flag<=1;
+			sRST<=1'b1;
+		end
+		else sRST<=1'b0;
+	end
+
+endmodule

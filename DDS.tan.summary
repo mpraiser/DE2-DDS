@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.764 ns
+From           : f[13]
+To             : counter[29]
+From Clock     : --
+To Clock       : CLK_fc
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 13.882 ns
+From           : DDS_ROM:dds_sin_table|altsyncram:altsyncram_component|altsyncram_oqb1:auto_generated|altsyncram_44b2:altsyncram1|ram_block3a7~porta_address_reg11
+To             : VGA_R[7]
+From Clock     : CLK_fc
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 31.717 ns
+From           : f[16]
+To             : HEX3[6]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 1.622 ns
+From           : altera_internal_jtag~TDIUTAP
+To             : sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|WORD_SR[3]
+From Clock     : --
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK_fc'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 163.03 MHz ( period = 6.134 ns )
+From           : phase_counter[27]
+To             : DDS_ROM:dds_sin_table|altsyncram:altsyncram_component|altsyncram_oqb1:auto_generated|altsyncram_44b2:altsyncram1|ram_block3a5~porta_address_reg10
+From Clock     : CLK_fc
+To Clock       : CLK_fc
+Failed Paths   : 0
+
+Type           : Clock Setup: 'altera_internal_jtag~TCKUTAP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 163.03 MHz ( period = 6.134 ns )
+From           : sld_hub:sld_hub_inst|node_ena[1]~reg0
+To             : DDS_ROM:dds_sin_table|altsyncram:altsyncram_component|altsyncram_oqb1:auto_generated|altsyncram_44b2:altsyncram1|ram_block3a16~portb_we_reg
+From Clock     : altera_internal_jtag~TCKUTAP
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'phase_select'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 450.05 MHz ( period = 2.222 ns )
+From           : phase
+To             : phase
+From Clock     : phase_select
+To Clock       : phase_select
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLK_fc'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : LCD:dds_LCD|LUT_INDEX[0]
+To             : LCD:dds_LCD|LUT_DATA[6]
+From Clock     : CLK_fc
+To Clock       : CLK_fc
+Failed Paths   : 54
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 54
+
+--------------------------------------------------------------------------------------
+

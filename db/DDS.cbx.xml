@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="DDS">
+		<CBX_INST_ENTRY INSTANCE_NAME="|DDS|DDS_ROM:dds_sin_table|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_oqb1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DDS|DDS_ROM:dds_sin_table|altsyncram:altsyncram_component|altsyncram_oqb1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|lpm_mux:Mux0" CBX_FILE_NAME="mux_ooc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DDS|sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|lpm_mux:Mux1" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DDS|DDS_ROM:dds_sin_table|altsyncram:altsyncram_component|altsyncram_oqb1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|lpm_mux:Mux1" CBX_FILE_NAME="mux_ooc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DDS|DDS_ROM:dds_sin_table|altsyncram:altsyncram_component|altsyncram_oqb1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|lpm_mux:Mux3" CBX_FILE_NAME="mux_ooc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DDS|f2M:dds_f2M|lpm_mult:Mult0" CBX_FILE_NAME="mult_e111.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DDS|sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|lpm_mux:Mux0" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DDS|sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|lpm_mux:Mux2" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DDS|DDS_ROM:dds_sin_table|altsyncram:altsyncram_component|altsyncram_oqb1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|lpm_mux:Mux2" CBX_FILE_NAME="mux_ooc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DDS|sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|lpm_mux:Mux3" CBX_FILE_NAME="mux_aqc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
